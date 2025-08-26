@@ -1,0 +1,20 @@
+{
+    "heroSection": {
+      "backgroundImage": "assets/hero-background.jpg",
+      "title": "Exceptional Real Estate Presentations for the Dutch Market",
+      "subtitle": "We combine stunning visuals with market insights to make your properties stand out.",
+      "buttonText": "Explore Our Work"
+    },
+    "guidingSection": {
+      "title": "Guiding Your Real Estate Decisions",
+      "image": {
+        "src": "https://placehold.co/600x400/A7D9F5/1F2937?text=Strategic+Insight",
+        "alt": "Modern building exterior representing strategic decision-making in real estate"
+      },
+      "paragraphs": [
+        "Navigating the real estate market can be complex. Our expertise goes beyond just creating stunning visuals; we provide insights and support to help you make informed decisions.",
+        "Whether you're a real estate agent looking to optimize your listings or a developer planning a new project, we offer tailored solutions and strategic advice to ensure your success.",
+        "Partner with us to transform your property presentations and achieve your sales goals with confidence."
+      ]
+    }
+}

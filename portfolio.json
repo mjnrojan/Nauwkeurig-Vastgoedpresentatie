@@ -1,0 +1,44 @@
+[
+    {
+        "image": "https://placehold.co/600x400/D1FAE5/000000?text=Dutch+Modern+Apartment+Interior",
+        "imageAlt": "Modern apartment interior in a Dutch city",
+        "title": "Modern City Apartment (Amsterdam)",
+        "details": "2 Beds | 1 Bath | 85 sqm",
+        "price": "€ 450,000"
+    },
+    {
+        "image": "https://placehold.co/600x400/FEE2E2/000000?text=Dutch+Canal+House+Facade",
+        "imageAlt": "Charming facade of a traditional Dutch canal house",
+        "title": "Historic Canal House (Utrecht)",
+        "details": "3 Beds | 2 Baths | 120 sqm",
+        "price": "€ 780,000"
+    },
+    {
+        "image": "https://placehold.co/600x400/DBEAFE/000000?text=Dutch+Suburban+Family+Home",
+        "imageAlt": "Spacious suburban family home with a large garden",
+        "title": "Spacious Family Home (Rotterdam)",
+        "details": "4 Beds | 3 Baths | 180 sqm",
+        "price": "€ 620,000"
+    },
+    {
+        "image": "https://placehold.co/600x400/E0F2F7/000000?text=Dutch+Commercial+Office+Space",
+        "imageAlt": "Modern commercial office space",
+        "title": "Commercial Office Space (The Hague)",
+        "details": "Open Plan | 200 sqm",
+        "price": "€ 950,000"
+    },
+    {
+        "image": "https://placehold.co/600x400/FFFBEB/000000?text=Dutch+Renovated+Farmhouse",
+        "imageAlt": "Beautifully renovated farmhouse exterior",
+        "title": "Renovated Farmhouse (Countryside)",
+        "details": "5 Beds | 3 Baths | 250 sqm",
+        "price": "€ 1,100,000"
+    },
+    {
+        "image": "https://placehold.co/600x400/EBF4FF/000000?text=Dutch+Luxury+Penthouse+View",
+        "imageAlt": "Luxury penthouse with expansive city views",
+        "title": "Luxury Penthouse (Eindhoven)",
+        "details": "3 Beds | 3 Baths | 220 sqm",
+        "price": "€ 1,500,000"
+    }
+]

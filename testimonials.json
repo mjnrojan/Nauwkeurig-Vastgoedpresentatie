@@ -1,0 +1,16 @@
+{
+    "sectionImage": {
+        "src": "assets/hero-background.jpg",
+        "alt": "Happy clients discussing successful real estate marketing strategies with our team"
+    },
+    "testimonials": [
+        {
+            "quote": "Nauwkeurig Vastgoedpresentatie transformed our listings! The quality of their photography and virtual tours is unmatched. Our properties are selling faster than ever before.",
+            "author": "Sarah L., Real Estate Agent"
+        },
+        {
+            "quote": "Their attention to detail and ability to capture the true essence of a home is incredible. Highly recommend their services for anyone serious about real estate marketing.",
+            "author": "John D., Property Developer"
+        }
+    ]
+}

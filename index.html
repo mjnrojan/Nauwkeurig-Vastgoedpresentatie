@@ -11,8 +11,8 @@
 <body class="bg-gray-50 text-gray-900 flex flex-col min-h-screen">
 
     <!-- Header Section -->
-    <header class="bg-white shadow-lg fixed w-full z-10 rounded-b-lg">
-        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+    <header class="bg-stone-50 shadow-lg fixed w-full z-10 ">
+        <div class="container mx-auto px-6 py-2 flex justify-between items-center">
             <!-- Logo/Brand Name -->
             <a href="index.html" class="flex items-center">
                 <img src="/assets/logo.png" alt="Nauwkeurig Vastgoedpresentatie Logo - Real Estate Visuals Specialist" class="h-12 w-auto rounded-md">
@@ -20,12 +20,12 @@
             <!-- Navigation Menu -->
             <nav>
                 <ul class="flex space-x-6">
-                    <li><a href="index.html" class="text-lg font-medium text-gray-700 hover:text-orange-600 transition duration-300">Home</a></li>
-                    <li><a href="about.html" class="text-lg font-medium text-gray-700 hover:text-orange-600 transition duration-300">About Us</a></li>
-                    <li><a href="services.html" class="text-lg font-medium text-gray-700 hover:text-orange-600 transition duration-300">Services</a></li>
-                    <li><a href="index.html#portfolio" class="text-lg font-medium text-gray-700 hover:text-orange-600 transition duration-300">Portfolio</a></li>
-                    <li><a href="index.html#testimonials" class="text-lg font-medium text-gray-700 hover:text-orange-600 transition duration-300">Testimonials</a></li>
-                    <li><a href="contact.html" class="text-lg font-medium text-gray-700 hover:text-orange-600 transition duration-300">Contact</a></li>
+                    <li><a href="index.html" class="text-lg font-medium text-gray-700 hover:text-orange-600 transition duration-300 hover:underline decoration-orange-600 decoration-2 underline-offset-4">Home</a></li>
+                    <li><a href="about.html" class="text-lg font-medium text-gray-700 hover:text-orange-600 transition duration-300 hover:underline decoration-orange-600 decoration-2 underline-offset-4">About Us</a></li>
+                    <li><a href="services.html" class="text-lg font-medium text-gray-700 hover:text-orange-600 transition duration-300 hover:underline decoration-orange-600 decoration-2 underline-offset-4">Services</a></li>
+                    <li><a href="index.html#portfolio" class="text-lg font-medium text-gray-700 hover:text-orange-600 transition duration-300 hover:underline decoration-orange-600 decoration-2 underline-offset-4">Portfolio</a></li>
+                    <li><a href="index.html#testimonials" class="text-lg font-medium text-gray-700 hover:text-orange-600 transition duration-300 hover:underline decoration-orange-600 decoration-2 underline-offset-4">Testimonials</a></li>
+                    <li><a href="contact.html" class="text-lg font-medium text-gray-700 hover:text-orange-600 transition duration-300 hover:underline decoration-orange-600 decoration-2 underline-offset-4">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -35,20 +35,20 @@
     <section id="home" class="hero-background-canva h-screen flex items-center justify-center text-center text-white relative">
         <div class="absolute inset-0 bg-black opacity-40"></div>
         <div class="z-0 p-4 max-w-4xl mx-auto animate-fade-in-up animate-delay-100">
-            <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-4 drop-shadow-lg">
-                Nepal's Premier Real Estate Presentation Specialist for the Dutch Market
+            <h1 id="hero-title" class="text-5xl md:text-6xl font-extrabold leading-tight mb-4 drop-shadow-lg">
+                <!-- Title will be loaded here -->
             </h1>
-            <p class="text-xl md:text-2xl mb-8 drop-shadow-md">
-                We handle all your creative media needs, making your properties shine globally, starting from Nepal.
+            <p id="hero-subtitle" class="text-xl md:text-2xl mb-8 drop-shadow-md">
+                <!-- Subtitle will be loaded here -->
             </p>
-            <a href="#portfolio" class="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-8 rounded-full shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
-                View Our Portfolio
+            <a id="hero-button" href="#portfolio" class="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-8 rounded-full shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
+                <!-- Button text will be loaded here -->
             </a>
         </div>
     </section>
 
     <!-- Value Proposition Section -->
-    <section class="py-20 bg-white" data-animate="true">
+    <section class="py-20 bg-stone-50" data-animate="true">
         <div class="container mx-auto px-6 text-center">
             <h2 class="text-4xl font-bold text-gray-800 mb-8 animate-on-scroll">Why Partner with Nauwkeurig Vastgoedpresentatie?</h2>
             <p class="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto mb-12 animate-on-scroll animate-delay-100">
@@ -77,115 +77,22 @@
         </div>
     </section>
 
-    <!-- Portfolio Section 1 -->
+    <!-- Portfolio Section -->
     <section id="portfolio" class="py-20 bg-gray-50" data-animate="true">
         <div class="container mx-auto px-6">
             <h2 class="text-4xl font-bold text-gray-800 mb-12 animate-on-scroll">Our Featured Projects for the Dutch Market</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Property Item 1 -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300 animate-on-scroll animate-delay-100">
-                    <img src="https://placehold.co/600x400/D1FAE5/000000?text=Dutch+Modern+Apartment+Interior" alt="Modern apartment interior in a Dutch city, showcasing spacious living area" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2 property-title">Modern City Apartment (Amsterdam)</h3>
-                        <p class="text-gray-600 mb-2 property-details">2 Beds | 1 Bath | 85 sqm</p>
-                        <p class="text-gray-700 font-bold text-lg property-price">€ 450,000</p>
-                        <button class="mt-4 bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-full text-sm generate-description-btn">
-                            ✨ Generate Description
-                        </button>
-                    </div>
-                </div>
-                <!-- Property Item 2 -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300 animate-on-scroll animate-delay-200">
-                    <img src="https://placehold.co/600x400/FEE2E2/000000?text=Dutch+Canal+House+Facade" alt="Charming facade of a traditional Dutch canal house in Utrecht" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2 property-title">Historic Canal House (Utrecht)</h3>
-                        <p class="text-gray-600 mb-2 property-details">3 Beds | 2 Baths | 120 sqm</p>
-                        <p class="text-gray-700 font-bold text-lg property-price">€ 780,000</p>
-                        <button class="mt-4 bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-full text-sm generate-description-btn">
-                            ✨ Generate Description
-                        </button>
-                    </div>
-                </div>
-                <!-- Property Item 3 -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300 animate-on-scroll animate-delay-300">
-                    <img src="https://placehold.co/600x400/DBEAFE/000000?text=Dutch+Suburban+Family+Home" alt="Spacious suburban family home with a large garden in Rotterdam" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2 property-title">Spacious Family Home (Rotterdam)</h3>
-                        <p class="text-gray-600 mb-2 property-details">4 Beds | 3 Baths | 180 sqm</p>
-                        <p class="text-700 font-bold text-lg property-price">€ 620,000</p>
-                        <button class="mt-4 bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-full text-sm generate-description-btn">
-                            ✨ Generate Description
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Portfolio Section 2 -->
-    <section class="py-20 bg-gray-100" data-animate="true">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-gray-800 mb-12 animate-on-scroll">More Projects</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Property Item 4 -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300 animate-on-scroll animate-delay-100">
-                    <img src="https://placehold.co/600x400/E0F2F7/000000?text=Dutch+Commercial+Office+Space" alt="Modern commercial office space in The Hague, ready for business" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2 property-title">Commercial Office Space (The Hague)</h3>
-                        <p class="text-gray-600 mb-2 property-details">Open Plan | 200 sqm</p>
-                        <p class="text-gray-700 font-bold text-lg property-price">€ 950,000</p>
-                        <button class="mt-4 bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-full text-sm generate-description-btn">
-                            ✨ Generate Description
-                        </button>
-                    </div>
-                </div>
-                <!-- Property Item 5 -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300 animate-on-scroll animate-delay-200">
-                    <img src="https://placehold.co/600x400/FFFBEB/000000?text=Dutch+Renovated+Farmhouse" alt="Beautifully renovated farmhouse exterior in the Dutch countryside" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2 property-title">Renovated Farmhouse (Countryside)</h3>
-                        <p class="text-gray-600 mb-2 property-details">5 Beds | 3 Baths | 250 sqm</p>
-                        <p class="text-gray-700 font-bold text-lg property-price">€ 1,100,000</p>
-                        <button class="mt-4 bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-full text-sm generate-description-btn">
-                            ✨ Generate Description
-                        </button>
-                    </div>
-                </div>
-                <!-- Property Item 6 -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300 animate-on-scroll animate-delay-300">
-                    <img src="https://placehold.co/600x400/EBF4FF/000000?text=Dutch+Luxury+Penthouse+View" alt="Luxury penthouse with expansive city views from a private terrace in Eindhoven" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2 property-title">Luxury Penthouse (Eindhoven)</h3>
-                        <p class="text-gray-600 mb-2 property-details">3 Beds | 3 Baths | 220 sqm</p>
-                        <p class="text-gray-700 font-bold text-lg property-price">€ 1,500,000</p>
-                        <button class="mt-4 bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-full text-sm generate-description-btn">
-                            ✨ Generate Description
-                        </button>
-                    </div>
-                </div>
+            <div id="portfolio-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Property items will be dynamically loaded here by script.js -->
             </div>
         </div>
     </section>
 
     <!-- "We'll help you make the right decisions" Section -->
-    <section class="py-20 bg-white" data-animate="true">
+    <section class="py-20 bg-stone-50" data-animate="true">
         <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-gray-800 mb-12 animate-on-scroll">Guiding Your Real Estate Decisions</h2>
-            <div class="flex flex-col md:flex-row items-center gap-10">
-                <div class="md:w-1/2 animate-on-scroll animate-delay-100">
-                    <img src="https://placehold.co/600x400/A7D9F5/000000?text=Modern+Building+Exterior" alt="Modern building exterior representing strategic decision-making in real estate" class="rounded-lg shadow-xl w-full">
-                </div>
-                <div class="md:w-1/2 animate-on-scroll animate-delay-200">
-                    <p class="text-lg text-gray-700 leading-relaxed mb-4">
-                        Navigating the real estate market can be complex. Our expertise goes beyond just creating stunning visuals; we provide insights and support to help you make informed decisions.
-                    </p>
-                    <p class="text-lg text-gray-700 leading-relaxed">
-                        Whether you're a real estate agent looking to optimize your listings or a developer planning a new project, we offer tailored solutions and strategic advice to ensure your success.
-                    </p>
-                    <p class="text-lg text-gray-700 leading-relaxed mt-4">
-                        Partner with us to transform your property presentations and achieve your sales goals with confidence.
-                    </p>
-                </div>
+            <!-- Content will be loaded by script.js -->
+            <div id="guiding-section-container">
+                <!-- Placeholder for title and content grid -->
             </div>
         </div>
     </section>
@@ -194,24 +101,9 @@
     <section id="testimonials" class="py-20 bg-gray-200" data-animate="true">
         <div class="container mx-auto px-6">
             <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center animate-on-scroll">What Our Clients Say</h2>
-            <div class="flex flex-col md:flex-row items-center gap-10">
-                <div class="md:w-1/2 animate-on-scroll animate-delay-100">
-                    <div class="bg-white p-8 rounded-lg shadow-lg mb-6">
-                        <p class="text-gray-700 italic mb-4">
-                            "Nauwkeurig Vastgoedpresentatie transformed our listings! The quality of their photography and virtual tours is unmatched. Our properties are selling faster than ever before."
-                        </p>
-                        <p class="font-semibold text-gray-800">- Sarah L., Real Estate Agent</p>
-                    </div>
-                    <div class="bg-white p-8 rounded-lg shadow-lg">
-                        <p class="text-gray-700 italic mb-4">
-                            "Their attention to detail and ability to capture the true essence of a home is incredible. Highly recommend their services for anyone serious about real estate marketing."
-                        </p>
-                        <p class="font-semibold text-gray-800">- John D., Property Developer</p>
-                    </div>
-                </div>
-                <div class="md:w-1/2 animate-on-scroll animate-delay-200">
-                    <img src="https://placehold.co/600x400/C0C0C0/000000?text=Happy+Client+Meeting" alt="Happy clients discussing real estate visuals and marketing strategies" class="rounded-lg shadow-xl w-full">
-                </div>
+            <!-- Testimonials will be dynamically inserted here -->
+            <div id="testimonials-container" class="flex flex-col md:flex-row items-center gap-10">
+                <!-- Content will be loaded by script.js -->
             </div>
         </div>
     </section>

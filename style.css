@@ -4,7 +4,7 @@ body {
 }
 /* Hero background image from Canva design */
 .hero-background-canva {
-    background-image: url('Home.jpg'); /* Using the provided Home.jpg directly */
+    /* background-image is now set by script.js */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,7 +42,6 @@ html {
 
 /* Modal styles */
 .modal {
-    display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1000; /* Sit on top */
     left: 0;
@@ -51,13 +50,16 @@ html {
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.modal:not(.hidden) {
+    display: flex;
+}
+
 .modal-content {
-    background-color: #fefefe;
+    background-color: #FAF9F6; /* Use a consistent off-white (Stone 50) */
     margin: auto;
     padding: 20px;
     border-radius: 8px;
